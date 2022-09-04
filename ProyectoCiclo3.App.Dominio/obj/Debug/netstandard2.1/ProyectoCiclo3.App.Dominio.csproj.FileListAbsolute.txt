@@ -7,3 +7,12 @@ C:\Users\pforero\Documents\Patricia\Patricia\Documents\Equipo6-GR86\ProyectoCicl
 C:\Users\pforero\Documents\Patricia\Patricia\Documents\Equipo6-GR86\ProyectoCiclo3.App\ProyectoCiclo3.App.Dominio\bin\Debug\netstandard2.1\ProyectoCiclo3.App.Dominio.pdb
 C:\Users\pforero\Documents\Patricia\Patricia\Documents\Equipo6-GR86\ProyectoCiclo3.App\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Dominio.dll
 C:\Users\pforero\Documents\Patricia\Patricia\Documents\Equipo6-GR86\ProyectoCiclo3.App\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Dominio.pdb
+C:\Users\pforero\Documents\Patricia\Patricia\Documents\Equipo6-GR86\Equipo6_GR83\ProyectoCiclo3.App.Dominio\bin\Debug\netstandard2.1\ProyectoCiclo3.App.Dominio.deps.json
+C:\Users\pforero\Documents\Patricia\Patricia\Documents\Equipo6-GR86\Equipo6_GR83\ProyectoCiclo3.App.Dominio\bin\Debug\netstandard2.1\ProyectoCiclo3.App.Dominio.dll
+C:\Users\pforero\Documents\Patricia\Patricia\Documents\Equipo6-GR86\Equipo6_GR83\ProyectoCiclo3.App.Dominio\bin\Debug\netstandard2.1\ProyectoCiclo3.App.Dominio.pdb
+C:\Users\pforero\Documents\Patricia\Patricia\Documents\Equipo6-GR86\Equipo6_GR83\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Dominio.csprojAssemblyReference.cache
+C:\Users\pforero\Documents\Patricia\Patricia\Documents\Equipo6-GR86\Equipo6_GR83\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\pforero\Documents\Patricia\Patricia\Documents\Equipo6-GR86\Equipo6_GR83\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Dominio.AssemblyInfo.cs
+C:\Users\pforero\Documents\Patricia\Patricia\Documents\Equipo6-GR86\Equipo6_GR83\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\pforero\Documents\Patricia\Patricia\Documents\Equipo6-GR86\Equipo6_GR83\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Dominio.dll
+C:\Users\pforero\Documents\Patricia\Patricia\Documents\Equipo6-GR86\Equipo6_GR83\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Dominio.pdb
