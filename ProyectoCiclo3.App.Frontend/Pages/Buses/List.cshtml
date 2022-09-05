@@ -1,46 +1,33 @@
 @page
-@model ProyectoCiclo3.App.Frontend.Pages.ListBusesModel
+@model ProyectoCiclo3.App.Frontend.Pages.ListBusModel
 @{
 }
-<table class="table table-hover">
+ 
+<h1>Listado de Buses</h1>
+<table class="table">
     <thead>
-     <tr>
-        <th scope="col">#</th>
-        <th scope="col">Nombre</th>
-        <th scope="col">Marca</th>
-        <th scope="col">Modelo</th>
-        <th scope="col">Kilometraje</th>
-        <th scope="col">Número de asientos</th>
-        <th scope="col">Placa</th>
-     </tr>
+        <th>Id</th>
+        <th>Marca</th>
+        <th>Modelo</th>
+        <th>Kilometraje</th>
+        <th>Numero de asiento</th>
+        <th>Placa</th>
+        <th>Acciones</th>
     </thead>
-   <tbody>>
-     <tr>
-      <th scope="row">1</th>
-      <td>Familiar</td>
-      <td>Renault</td>
-      <td>1999</td>
-      <td>150000</td>
-      <td>5</td>
-      <td>ABC123</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Auto Pesado</td>
-      <td>Rivian R1T</td>
-      <td>2018</td>
-      <td>140000</td>
-      <td>1</td>
-      <td>SIP456</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Servicio Público</td>
-      <td>Mercedes Benz</td>
-      <td>2020</td>
-      <td>160000</td>
-      <td>120</td>
-      <td>RUT789</td>
-     </tr>
-  </tbody>
+    @foreach (var bus in Model.Buses)
+    {
+        <tr>
+            <td>@bus.id</td>
+            <td>@bus.marca</td>
+            <td>@bus.modelo</td>
+            <td>@bus.kilometraje</td>
+            <td>@bus.numero_asientos</td>
+            <td>@bus.placa</td>
+            <td>
+              <a class="btn btn-info" asp-page="./Details" asp-route-busId="@bus.id"><i class="fas fa-adjust"></i>Ver</a>
+              <a class="btn btn-info" asp-page="./Edit" asp-route-busId="@bus.id">Editar</a>
+              <a class="btn btn-danger" href="">Eliminar</a>
+              </td>
+        </tr>
+    }
 </table>
