@@ -28,14 +28,14 @@ namespace ProyectoCiclo3.App.Frontend.Pages
 
         public IActionResult OnPost()
         {
-          //  if(!ModelState.IsValid)
-            //{
-            //    return Page();
-           // }
-           // if(Estacion.id>0)
-         //   {
-           //  Estacion = repositorioEstaciones.Update(Estacion);
-       //     }
+            if(!ModelState.IsValid)
+            {
+                return Page();
+            }
+            if(Estacion.id>0)
+            {
+             Estacion = repositorioEstaciones.Update(Estacion);
+            }
             return RedirectToPage("./List");
         }
 
