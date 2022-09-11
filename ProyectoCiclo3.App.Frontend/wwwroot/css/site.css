@@ -56,11 +56,13 @@ button.accept-policy {
 html {
   position: relative;
   min-height: 100%;
+  color: blue;
 }
 
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+  /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-oBem8Kw4o1BNzDkRVTO1NgURGSelD1mt0A&usqp=CAU"); */
 }
 .footer {
   position: absolute;
