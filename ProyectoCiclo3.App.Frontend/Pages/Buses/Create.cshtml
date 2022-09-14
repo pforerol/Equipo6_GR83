@@ -2,21 +2,22 @@
 @model ProyectoCiclo3.App.Frontend.Pages.FormBusesModel
 @{
 }
- 
+<div class="text-center">
+<h1>Crear Buses</h1>
+</div>
 <div class="text-center">
     <form method="POST">
-        <label for="marca" class="form-label">Marca:</label>
+        <label for="marca" class="form-label"><b>Marca:</b></label>
         <input type="text" class="form-control" id="marca" name="marca" required placeholder="Marca">
-        <label for="modelo" class="form-label">Modelo:</label>
+        <label for="modelo" class="form-label"><b>Modelo:</b></label>
         <input type="number" class="form-control" id="modelo" name="modelo" required placeholder="Modelo">
-        <label for="kilometraje" class="form-label">Kilometraje:</label>
+        <label for="kilometraje" class="form-label"><b>Kilometraje:</b></label>
         <input type="number" class="form-control" id="kilometraje" name="kilometraje" required placeholder="Kilometraje">
-        <label for="numero_asientos" class="form-label">Número de asientos:</label>
+        <label for="numero_asientos" class="form-label"><b>Número de asientos:</label></b>
         <input type="number" class="form-control" id="numero_asientos" name="numero_asientos" required placeholder="Número de asientos">
-        <label for="placa" class="form-label">Placa:</label>
+        <label for="placa" class="form-label"><b>Placa:</b></label>
         <input type="text" class="form-control" id="placa" name="placa" required placeholder="placa">
         <hr>
-        <button type="submit" class="btn btn-success">Enviar</button>
+        <button type="submit" class="btn btn-success"><b>Enviar</b></button>
     </form>
 </div>
-
