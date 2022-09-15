@@ -6,8 +6,7 @@
  
 <div class="text-center">
 <form method="POST">
-  <label for="id" class="form-label"><b>id:</b></label>
-  <input type="number" class="form-control" id="id" name="id" placeholder="id" asp-for="@bus.id">
+  <input type="number" class="form-control d-none" id="id" name="id" placeholder="id" asp-for="@bus.id" readonly>
   <label for="Marca" class="form-label"><b>Marca:</b></label>
   <input type="text" class="form-control" id="marca" name="marca" placeholder="Marca" asp-for="@bus.marca">
   <label for="Modelo" class="form-label"><b>Modelo:</b></label>
