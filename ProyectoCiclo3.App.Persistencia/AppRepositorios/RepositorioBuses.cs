@@ -44,11 +44,20 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
 
         public Buses Delete(int id)
         {
+            try
+            {
+                
             var bus = _appContext.Buses.Find(id);
             if (bus != null){
                 _appContext.Buses.Remove(bus);
                 //Guardar en base de datos
                 _appContext.SaveChanges();
+            }
+            }
+            catch (System.Exception)
+            {
+                
+                throw;
             }
             return null;
         }
