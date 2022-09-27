@@ -2,6 +2,15 @@
 @model ProyectoCiclo3.App.Frontend.Pages.ListEstacionesModel
 @{
 }
+
+@if(Model.Error){
+  <div class="alert alert-danger alert-dismissible fade show" role="alert">
+  <strong>Error!</strong> La Estación no se puede eliminar, porque está asociada a una Ruta
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+}
 <div class="text-center">
 <h1>Listado de Estaciones</h1>
 </div> 

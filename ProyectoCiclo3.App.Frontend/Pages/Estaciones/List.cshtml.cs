@@ -16,6 +16,8 @@ namespace ProyectoCiclo3.App.Frontend.Pages
     public IEnumerable<Estaciones> Estaciones {get;set;}
     [BindProperty]
     public Estaciones Estacion {get;set;}
+    [TempData]
+    public bool Error {get;set;}
     public ListEstacionesModel(RepositorioEstaciones repositorioEstaciones)
     {
         this.repositorioEstaciones=repositorioEstaciones;
@@ -29,9 +31,9 @@ namespace ProyectoCiclo3.App.Frontend.Pages
     {
         if(Estacion.id>0)
         {
-            repositorioEstaciones.Delete(Estacion.id);
+            Error = repositorioEstaciones.Delete(Estacion.id);
         }
         return RedirectToPage("./List");
     }
-    }
+}
 }
